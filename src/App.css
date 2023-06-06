@@ -1,0 +1,295 @@
+:root {
+
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.lewineLink,
+.serviceLink,
+.musicLink,
+.companyLink,
+.helloLink {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-basis: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+.AppHeader,
+.AppFooter {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  color: #000000;
+  z-index: 0;
+  font-family: -apple-system, BlinkMacSystemFont,
+               'Segoe UI', 'Roboto', 'Oxygen',
+               'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+               sans-serif;
+}
+
+.AppHeader {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  color: #000000;
+  /* z-index: 0; */
+  top: 0;
+}
+
+.AppFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  color: #000000;
+  z-index: 0;
+  bottom: 0;
+}
+
+.animationHeader,
+.serviceContainer,
+.musicContainer,
+.companyContainer,
+.helloContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10vh 0vw 10vh 0vw; */
+  height: 80vh;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.col1,
+.col2,
+.col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 80vw;
+}
+
+.jobProfiles {
+  width: 50%;
+}
+
+.serviceContainer .col2 {
+  list-style-type: none;
+}
+
+.serviceContainer .col3 {
+  flex-direction: row;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.serviceCta {
+
+}
+
+.rocketDescription {
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  width: 100%;
+  justify-content: center;
+}
+
+.rocketHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.animationHeader .col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.musicCta,
+.companyCta {
+  width: 40%;
+}
+
+.serviceCta,
+.helloCta {
+  width: 90%;
+}
+
+.musicCta,
+.companyCta,
+.helloCta,
+.serviceCta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 2vw 2vh 2vw;
+  border: solid 1px #000000;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 10vh;
+  margin: auto;
+  text-decoration: none;
+}
+
+.contactCta {
+  color: #000000;
+  text-decoration: none;
+}
+
+.musicCta:hover,
+.companyCta:hover,
+.helloCta:hover.
+.serviceCta:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.musicCta:active,
+.companyCta:active,
+.helloCta:active,
+.serviceCta:active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.musicCta:visited,
+.companyCta:visited,
+.helloCta:visited,
+.serviceCta:visited {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.githubLink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.githubLink {
+  display: inline;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  transform: rotate3d(1,1,1,0deg);
+  width: 23vw;
+  height: 23vh;
+  fill: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* font-size ------------------------------------- */
+
+.AppHeader {
+  font-size: 2vmin;
+}
+
+.AppFooter {
+  font-size: 2vmin;
+}
+
+.col1 {
+  font-weight: bold;
+  font-size: 3.1vmin;
+}
+
+.col3 {
+  font-size: 3vmin
+}
+
+.serviceContainer .col2 {
+  font-size: 3.4vmin;
+}
+
+.musicContainer .col2,
+.companyContainer .col2 {
+  font-size: 3.2vmin;
+}
+
+.helloContainer .col2 {
+  font-size: 4vmin;
+}
+
+.musicContainer .col3,
+.companyContainer .col3 {
+  font-size: 3vmin;
+}
+
+.musicCta,
+.companyCta,
+.serviceCta,
+.helloCta {
+  font-size: 3vmin;
+}
+
+
+/* font-weight ------------------------------------- */
+
+.animationHeader .col1,
+.helloContainer .col1,
+.serviceContainer .col1,
+.musicContainer .col1,
+.companyContainer .col1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.serviceContainer .col2,
+.musicContainer .col2,
+.companyContainer .col2,
+.helloContainer .col2 {
+  font-weight: 500;
+}
+
+.serviceCta,
+.musicCta,
+.companyCta,
+.helloCta {
+  font-weight: bold;
+}
+
+.serviceContainer .col2 {
+  font-weight: bold;
+}
