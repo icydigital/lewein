@@ -1,25 +1,10 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 
-export class Home extends React.Component {
-  render () {
-    return (
-      <div className="animationHeader">
-        <div className="col1">
-          <div className="headerTitle">About</div>
-        </div>
-        <div className="col2">
-          Projects
-        </div>
-      </div>
-    )
-  }
-}
-
 export class Sound extends React.Component {
   render () {
     return (
-      <div className="serviceContainer">
+      <div className="soundContainer">
         <div className="col1">
           About Sound
         </div>
@@ -49,7 +34,7 @@ export class Music extends React.Component {
 export class Art extends React.Component {
   render () {
     return (
-      <div className="companyContainer">
+      <div className="artContainer">
         <div className="col1">
           About
         </div>

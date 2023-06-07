@@ -8,7 +8,7 @@
   /* text-align: center; */
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
 }
 
 .lewineLink,
@@ -67,11 +67,20 @@
   bottom: 0;
 }
 
+.VideoHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90vw;
+  height: 100vh;
+}
+
+/* .helloContainer, */
 .animationHeader,
-.serviceContainer,
+.soundContainer,
 .musicContainer,
-.companyContainer,
-.helloContainer {
+.artContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -98,11 +107,11 @@
   width: 50%;
 }
 
-.serviceContainer .col2 {
+.soundContainer .col2 {
   list-style-type: none;
 }
 
-.serviceContainer .col3 {
+.soundContainer .col3 {
   flex-direction: row;
 }
 
@@ -239,12 +248,12 @@ svg:not(:root) {
   font-size: 3vmin
 }
 
-.serviceContainer .col2 {
+.soundContainer .col2 {
   font-size: 3.4vmin;
 }
 
 .musicContainer .col2,
-.companyContainer .col2 {
+.artContainer .col2 {
   font-size: 3.2vmin;
 }
 
@@ -253,7 +262,7 @@ svg:not(:root) {
 }
 
 .musicContainer .col3,
-.companyContainer .col3 {
+.artContainer .col3 {
   font-size: 3vmin;
 }
 
@@ -269,16 +278,16 @@ svg:not(:root) {
 
 .animationHeader .col1,
 .helloContainer .col1,
-.serviceContainer .col1,
+.soundContainer .col1,
 .musicContainer .col1,
-.companyContainer .col1 {
+.artContainer .col1 {
   font-weight: bold;
   font-style: italic;
 }
 
-.serviceContainer .col2,
+.soundContainer .col2,
 .musicContainer .col2,
-.companyContainer .col2,
+.artContainer .col2,
 .helloContainer .col2 {
   font-weight: 500;
 }
@@ -290,6 +299,6 @@ svg:not(:root) {
   font-weight: bold;
 }
 
-.serviceContainer .col2 {
+.soundContainer .col2 {
   font-weight: bold;
 }
