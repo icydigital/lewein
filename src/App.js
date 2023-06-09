@@ -20,9 +20,8 @@ import {
 
 function App() {
     return (
+      <div className="AppContainer">
       <Router>
-        <div className="AppContainer">
-
           <VideoHeader/>
             <Switch>
                 <Route path="/sound" component={Sound}>
@@ -35,8 +34,8 @@ function App() {
                 </Route>
             </Switch>
           <Footer/>
-        </div>
       </Router>
+      </div>
     );
 }
 
