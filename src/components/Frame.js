@@ -31,6 +31,17 @@ export class VideoHeader extends React.Component {
   }
 }
 
+export class NavHeader extends React.Component {
+  render () {
+    return (
+      <div class="NavHeader">
+        <Header/>
+      Logo leftbound links rightbound
+      </div>
+    )
+  }
+}
+
 export class Footer extends React.Component {
   render () {
     return (

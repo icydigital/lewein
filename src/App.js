@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import {
+  NavHeader,
   VideoHeader,
   Footer } from './components/Frame.js'
 import {
@@ -22,6 +23,7 @@ function App() {
     return (
       <div className="AppContainer">
       <Router>
+          <NavHeader/>
           <VideoHeader/>
             <Switch>
                 <Route path="/sound" component={Sound}>
