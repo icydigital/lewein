@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-class Header extends React.Component {
+export class Header extends React.Component {
   constructor (props) {
     super(props)
     this.active = {
@@ -11,10 +11,14 @@ class Header extends React.Component {
   render () {
     return (
       <div className="AppHeader">
-        <NavLink className="lewineLink" exact to="/" activeStyle={this.active}>Lewine</NavLink>
-        <NavLink className="serviceLink" to="/sound" activeStyle={this.active}>Sound</NavLink>
-        <NavLink className="musicLink" to="/music" activeStyle={this.active}>Music</NavLink>
-        <NavLink className="companyLink" to="/art" activeStyle={this.active}>Art</NavLink>
+        <div className="LogoHeader">
+          <NavLink className="lewineLink" exact to="/" activeStyle={this.active}>Lewine</NavLink>
+        </div>
+        <div className="LinkHeader">
+          <NavLink className="serviceLink" to="/sound" activeStyle={this.active}>Sound</NavLink>
+          <NavLink className="musicLink" to="/music" activeStyle={this.active}>Music</NavLink>
+          <NavLink className="companyLink" to="/art" activeStyle={this.active}>Art</NavLink>
+        </div>
       </div>
     )
   }

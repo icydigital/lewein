@@ -21,10 +21,10 @@ export class Music extends React.Component {
     return (
       <div className="musicContainer">
         <div className="col1">
-          About
+          About Music
         </div>
         <div className="col2">
-          Projects
+          Projects Music
         </div>
       </div>
     )
@@ -36,10 +36,10 @@ export class Art extends React.Component {
     return (
       <div className="artContainer">
         <div className="col1">
-          About
+          About Art
         </div>
         <div className="col1">
-          Projects
+          Projects Art
         </div>
       </div>
     )

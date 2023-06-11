@@ -3,7 +3,7 @@ import './App.css';
 
 import {
   NavHeader,
-  VideoHeader,
+  Header,
   Footer } from './components/Frame.js'
 import {
   Home,
@@ -23,8 +23,7 @@ function App() {
     return (
       <div className="AppContainer">
       <Router>
-          <NavHeader/>
-          <VideoHeader/>
+          <Header/>
             <Switch>
                 <Route path="/sound" component={Sound}>
                 </Route>
