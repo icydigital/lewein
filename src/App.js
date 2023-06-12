@@ -3,6 +3,7 @@ import './App.css';
 
 import {
   NavHeader,
+  VideoHeader,
   Header,
   Footer } from './components/Frame.js'
 import {
@@ -21,9 +22,10 @@ import {
 
 function App() {
     return (
-      <div className="AppContainer">
       <Router>
+      <div className="AppContainer">
           <Header/>
+          <VideoHeader/>
             <Switch>
                 <Route path="/sound" component={Sound}>
                 </Route>
@@ -35,8 +37,8 @@ function App() {
                 </Route>
             </Switch>
           <Footer/>
+          </div>
       </Router>
-      </div>
     );
 }
 

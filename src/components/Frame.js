@@ -28,8 +28,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div class="VideoHeader">
-        <Header/>
-      Logo
+      Video Round
       </div>
     )
   }
