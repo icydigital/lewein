@@ -5,7 +5,6 @@
 .AppContainer {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   justify-content: center;
 }
 
@@ -62,8 +61,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   position: relative;
-  width: 100%;
+  width: auto;
   height: 10vh;
   color: #000000;
   z-index: 0;
@@ -79,7 +80,6 @@
   height: 100vh;
 }
 
-/* .helloContainer, */
 .soundContainer,
 .musicContainer,
 .artContainer {
@@ -89,10 +89,10 @@
   height: 100vh;
   width: 100%;
   color: #000000;
-  text-align: center;
   font-family: 'Roboto Mono', monospace;
 }
 
+.soundContainer .col1,
 .soundContainer .col2 {
   display: flex;
   flex-direction: column;
@@ -104,6 +104,7 @@
   height: auto;
   width: 100%
 }
+
 .soundPic {
   width: 40vh;
   padding-right: 1vw;
@@ -119,7 +120,7 @@
 .col2 {
   padding-left: 2.5vw;
   padding-right: 2.5vw;
-
+  width: auto;
 }
 /* font-size ------------------------------------- */
 
@@ -136,17 +137,10 @@
   font-size: 3.1vmin;
 }
 
-.col3 {
-  font-size: 3vmin
-}
-
-.soundContainer .col2 {
-  font-size: 3.4vmin;
-}
-
+.soundContainer .col2,
 .musicContainer .col2,
 .artContainer .col2 {
-  font-size: 3.2vmin;
+  font-size: 2vmin;
 }
 
 .helloContainer .col2 {
@@ -167,27 +161,3 @@
 
 
 /* font-weight ------------------------------------- */
-
-.soundContainer .col1,
-.musicContainer .col1,
-.artContainer .col1 {
-  font-style: italic;
-}
-
-.soundContainer .col2,
-.musicContainer .col2,
-.artContainer .col2,
-.helloContainer .col2 {
-  font-weight: 500;
-}
-
-.serviceCta,
-.musicCta,
-.companyCta,
-.helloCta {
-  font-weight: bold;
-}
-
-.soundContainer .col2 {
-  font-weight: bold;
-}
