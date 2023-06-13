@@ -5,7 +5,7 @@ export class Header extends React.Component {
   constructor (props) {
     super(props)
     this.active = {
-      "backgroundColor": "#FFCC00"
+      "backgroundColor": ""
     }
   }
   render () {
