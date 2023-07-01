@@ -23,7 +23,7 @@ import {
 function App() {
     return (
       <Router>
-      <div className="AppContainer">
+        <div className="AppContainer">
           <Header/>
           <VideoHeader/>
             <Switch>
@@ -37,7 +37,7 @@ function App() {
                 </Route>
             </Switch>
           <Footer/>
-          </div>
+        </div>
       </Router>
     );
 }

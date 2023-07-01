@@ -28,7 +28,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div class="VideoHeader">
-      Video Round
+        Video Round
       </div>
     )
   }

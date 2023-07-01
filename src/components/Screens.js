@@ -20,52 +20,48 @@ export class Sound extends React.Component {
           I offer MUSIC SUPERVISION and tailor-made compositions for commercials, television, and film productions. I am here to assist you with music production and sound consultancy. With my extensive portfolio and expertise, I help you find the perfect musical accompaniment for your commercial projects. Trust in my professional approach, and let us together create an unforgettable soundscape for your content. Contact me now and let's bring your vision to life!
         </div>
         <div className="col2">
-          <div className="picRow1">
-            <div>
+            <div className="soundPicContainer">
               <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-            <div>
+            <div className="soundPicContainer">
               <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-            <div>
+            <div className="soundPicContainer">
               <img className="soundPic" src={allforyou} alt="All_for_you"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-          </div>
-          <div className="picRow2">
-            <div>
+            <div className="soundPicContainer">
               <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-            <div>
+            <div className="soundPicContainer">
               <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-            <div>
-              <img  className="soundPic" src={danfox} alt="Dan_FOX"/>
+            <div className="soundPicContainer">
+              <img className="soundPic" src={danfox} alt="Dan_FOX"/>
               <div>{yearstr}</div>
               <div>{directedstr}</div>
               <div>{musicstr}</div>
               <div>{brandstr}</div>
             </div>
-          </div>
         </div>
       </div>
     )
