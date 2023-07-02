@@ -23,6 +23,7 @@ export class Sound extends React.Component {
             <div className="soundPicContainer">
               <div className="soundPicBox">
                 <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
@@ -30,6 +31,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
@@ -37,6 +39,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <img className="soundPic" src={allforyou} alt="All_for_you"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
@@ -44,6 +47,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
@@ -51,6 +55,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
@@ -58,6 +63,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <img className="soundPic" src={danfox} alt="Dan_FOX"/>
+                <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
                 <div>{musicstr}</div>
