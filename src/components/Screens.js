@@ -21,41 +21,48 @@ export class Sound extends React.Component {
         </div>
         <div className="col2">
             <div className="soundPicContainer">
-              <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
-
-              <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
-
-              <img className="soundPic" src={allforyou} alt="All_for_you"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
-
-              <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
-
-              <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
-
-              <img className="soundPic" src={danfox} alt="Dan_FOX"/>
-              <div>{yearstr}</div>
-              <div>{directedstr}</div>
-              <div>{musicstr}</div>
-              <div>{brandstr}</div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+              </div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+              </div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={allforyou} alt="All_for_you"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+              </div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+              </div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+              </div>
+              <div className="soundPicBox">
+                <img className="soundPic" src={danfox} alt="Dan_FOX"/>
+                <div>{yearstr}</div>
+                <div>{directedstr}</div>
+                <div>{musicstr}</div>
+                <div>{brandstr}</div>
+                </div>
             </div>
         </div>
       </div>

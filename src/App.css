@@ -110,16 +110,23 @@
 
 .soundPicContainer {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   height: 100%;
   padding-right: 1vw;
   padding-left: 1vw;
+  flex-direction : row;
+  justify-content : space-around;
+}
+
+.soundPicBox {
+  width: 400px;
+  height: 400px;
 }
 
 .soundPic {
-  display: flex;
-  flex-direction: row;
-  width: 33%;
+  width: 80%;
+  height: 80%;
+  object-fit:cover;
 }
 /* font-size ------------------------------------- */
 
