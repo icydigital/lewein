@@ -28,6 +28,9 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div class="VideoHeader">
+        <video autoplay muted loop id="lewineVideo">
+          <source src="https://www.youtube.com/watch?v=vpzPpxjegZs" type="video/mp4"></source>
+        </video>
         Video Round
       </div>
     )
