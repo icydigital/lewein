@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 
-import allforyou from '../pics/All_for_you.png'
-import danfox from '../pics/Dan_FOX.png'
-import guidomaria from '../pics/Guido_Maria.png'
-import heatrdy from '../pics/Heat_RDY.png'
-import nikedance from '../pics/Nike_Dance.png'
+import allforyou from '../assets/All_for_you.png'
+import danfox from '../assets/Dan_FOX.png'
+import guidomaria from '../assets/Guido_Maria.png'
+import heatrdy from '../assets/Heat_RDY.png'
+import nikedance from '../assets/Nike_Dance.png'
 
 const yearstr = "year:"
 const directedstr = "directed:"
