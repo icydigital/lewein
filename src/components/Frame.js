@@ -29,7 +29,7 @@ export class VideoHeader extends React.Component {
     return (
       <div className="VideoHeader">
         <video autoPlay loop muted plays-inline="true" id="lewineVideo">
-          <source src="../../public/mind_frame.mp3" type="video/mp4"></source>
+          <source src="../../public/mind_frame.mp4" type="video/mp4"></source>
         </video>
         Video Round
       </div>
