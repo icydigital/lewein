@@ -29,9 +29,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <video className="lewineVideo" src={VideoHeader} autoplay="autoplay" loop="true" type="video/mp4" controls muted>
-        </video>
-          Video Round
+        <video className="lewineVideo" src={headerVideo} type="video/mp4"  muted autoPlay playsInLine/>
       </div>
     )
   }
@@ -42,7 +40,7 @@ export class NavHeader extends React.Component {
     return (
       <div class="NavHeader">
         <Header/>
-      Logo leftbound links rightbound
+          Logo leftbound links rightbound
       </div>
     )
   }
