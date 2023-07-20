@@ -29,7 +29,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <video className="lewineVideo" src={headerVideo} type="video/mp4"  muted autoPlay playsInLine/>
+        <video className="lewineVideo" src={headerVideo} type="video/mp4"  muted preLoad autoPlay playsInLine/>
       </div>
     )
   }

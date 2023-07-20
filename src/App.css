@@ -49,10 +49,10 @@
 .AppHeader {
   display: flex;
   flex-direction: row;
-  position: absolute;
   width: 100%;
   height: 10vh;
   color: #000000;
+  background-color: #000000;
   /* z-index: 0; */
   top: 0;
 }
@@ -78,10 +78,15 @@
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .lewineVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
   object-fit: cover;
   height: 100%;
   width: 100%;
