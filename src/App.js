@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 
 import {
-  NavHeader,
   VideoHeader,
   Header,
   Footer } from './components/Frame.js'
@@ -24,17 +23,19 @@ function App() {
     return (
       <Router>
         <div className="AppContainer">
-          <Header/>
-          <VideoHeader/>
+          <div className="AppHeader">
+            <Header/>
+            <VideoHeader/>
+          </div>
             <Switch>
-                <Route path="/sound" component={Sound}>
-                </Route>
-                <Route path="/music" component={Music}>
-                </Route>
-                <Route path="/art" component={Art}>
-                </Route>
-                <Route exact path="/" component={Sound}>
-                </Route>
+              <Route path="/sound" component={Sound}>
+              </Route>
+              <Route path="/music" component={Music}>
+              </Route>
+              <Route path="/art" component={Art}>
+              </Route>
+              <Route exact path="/" component={Sound}>
+              </Route>
             </Switch>
           <Footer/>
         </div>

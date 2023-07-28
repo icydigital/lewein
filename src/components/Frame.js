@@ -11,7 +11,7 @@ export class Header extends React.Component {
   }
   render () {
     return (
-      <div className="AppHeader">
+      <div className="NavBarHeader">
         <div className="LogoHeader">
           <NavLink className="lewineLink" exact to="/" activeStyle={this.active}>Lewine</NavLink>
         </div>
@@ -29,7 +29,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <video className="lewineVideo" src={headerVideo} type="video/mp4"  muted preLoad autoPlay playsInLine/>
+        <video className="lewineVideo" src={headerVideo} type="video/mp4"  muted preload="true" autoPlay loop playsInline/>
       </div>
     )
   }
