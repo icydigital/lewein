@@ -24,7 +24,6 @@ function App() {
       <Router>
         <div className="AppContainer">
           <div className="AppHeader">
-            <Header/>
             <VideoHeader/>
           </div>
             <Switch>
