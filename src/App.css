@@ -17,15 +17,20 @@
   flex-direction: column;
   text-align: start;
   width: 80vw;
+  height: 15vh;
   padding-left: 2.5vw;
+  padding-top: 1.5vh;
 }
 
 .LinkHeader {
   display: flex;
   flex-direction: column;
   text-align: end;
+  justify-content: center;
   width: 20vw;
+  height: 15vh;
   padding-right: 2.5vw;
+  padding-top: 1.5vh;
 }
 
 .lewineLink {
@@ -53,12 +58,10 @@
 .NavBarHeader {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   width: 100%;
-  height: 10vh;
-  color: #000000;
+  height: 100vh;
   position: relative;
-  /* z-index: 0; */
-  top: 0;
 }
 
 .AppFooter {
