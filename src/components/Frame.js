@@ -13,12 +13,12 @@ export class Header extends React.Component {
     return (
       <div className="NavBarHeader">
         <div className="LogoHeader">
-          <NavLink className="lewineLink" exact to="/" activeStyle={this.active}>Lewine</NavLink>
+          <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
         </div>
         <div className="LinkHeader">
-          <NavLink className="serviceLink" to="/sound" activeStyle={this.active}>Sound</NavLink>
-          <NavLink className="musicLink" to="/music" activeStyle={this.active}>Music</NavLink>
-          <NavLink className="companyLink" to="/art" activeStyle={this.active}>Art</NavLink>
+          <NavLink className="serviceLink" to="/sound">Sound</NavLink>
+          <NavLink className="musicLink" to="/music">Music</NavLink>
+          <NavLink className="companyLink" to="/art">Art</NavLink>
         </div>
       </div>
     )

@@ -1,11 +1,17 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import allforyou from '../assets/All_for_you.png'
 import danfox from '../assets/Dan_FOX.png'
 import guidomaria from '../assets/Guido_Maria.png'
 import heatrdy from '../assets/Heat_RDY.png'
 import nikedance from '../assets/Nike_Dance.png'
+
+const allforyouUrl = 'https://www.youtube.com/watch?y-83GRQvemCyo'
+const danfoxUrl = 'https://www.youtube.com/watch?v-Pi4An155Pvs'
+const guidomariaUrl = 'https://www.youtube.com/watch?v=InpAW63xues'
+const heatrdyUrl = 'https://www.instagram.com/p/CDbagL1KNbX/?utm_source-iq_web_copy_link&igshid-MzRIODBINWVFIZA--'
+const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZA=="
 
 const yearstr = "year:"
 const directedstr = "directed:"
@@ -22,7 +28,9 @@ export class Sound extends React.Component {
         <div className="col2">
             <div className="soundPicContainer">
               <div className="soundPicBox">
-                <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <a className="serviceLink" href={nikedanceUrl}>
+                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
@@ -30,7 +38,9 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <a className="serviceLink" href={nikedanceUrl}>
+                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
@@ -38,7 +48,9 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <img className="soundPic" src={allforyou} alt="All_for_you"/>
+                <a className="serviceLink" href={allforyouUrl}>
+                  <img className="soundPic" src={allforyou} alt="All_for_you"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
@@ -46,7 +58,9 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
+                <a className="serviceLink" href={heatrdyUrl}>
+                  <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
@@ -54,7 +68,9 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+                <a className="serviceLink" href={guidomariaUrl}>
+                  <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
@@ -62,7 +78,9 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <img className="soundPic" src={danfox} alt="Dan_FOX"/>
+                <a className="serviceLink" href={danfoxUrl}>
+                  <img className="soundPic" src={danfox} alt="Dan_FOX"/>
+                </a>
                 <br></br>
                 <div>{yearstr}</div>
                 <div>{directedstr}</div>
