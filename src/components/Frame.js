@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import { NavLink } from "react-router-dom";
-import headerVideo from '../assets/mind_frame.mp4'
+import headerVideo from "../assets/Chaampion Handy.mp4";
 
 export class Header extends React.Component {
   constructor (props) {
@@ -30,7 +30,7 @@ export class VideoHeader extends React.Component {
     return (
       <div className="VideoHeader">
         <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
-        <Header/>
+          <Header/>
       </div>
     )
   }

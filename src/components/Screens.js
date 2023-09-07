@@ -1,16 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
 
-import allforyou from '../assets/All_for_you.png'
-import danfox from '../assets/Dan_FOX.png'
-import guidomaria from '../assets/Guido_Maria.png'
-import heatrdy from '../assets/Heat_RDY.png'
-import nikedance from '../assets/Nike_Dance.png'
+import allforyou from "../assets/All_for_you.png"
+import danfox from "../assets/Dan_FOX.png"
+import guidomaria from "../assets/Guido_Maria.png"
+import heatrdy from "../assets/Heat_RDY.png"
+import nikedance from "../assets/Nike_Dance.png"
 
-const allforyouUrl = 'https://www.youtube.com/watch?y-83GRQvemCyo'
-const danfoxUrl = 'https://www.youtube.com/watch?v-Pi4An155Pvs'
-const guidomariaUrl = 'https://www.youtube.com/watch?v=InpAW63xues'
-const heatrdyUrl = 'https://www.instagram.com/p/CDbagL1KNbX/?utm_source-iq_web_copy_link&igshid-MzRIODBINWVFIZA--'
+const allforyouUrl = "https://www.youtube.com/watch?y-83GRQvemCyo"
+const danfoxUrl = "https://www.youtube.com/watch?v-Pi4An155Pvs"
+const guidomariaUrl = "https://www.youtube.com/watch?v=InpAW63xues"
+const heatrdyUrl = "https://www.instagram.com/p/CDbagL1KNbX/?utm_source-iq_web_copy_link&igshid-MzRIODBINWVFIZA--"
 const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZA=="
 
 const yearstr = "year:"
