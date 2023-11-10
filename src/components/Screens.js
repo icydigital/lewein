@@ -4,14 +4,16 @@ import { Link } from "react-router-dom"
 import allforyou from "../assets/All_for_you.png"
 import danfox from "../assets/Dan_FOX.png"
 import guidomaria from "../assets/Guido_Maria.png"
-import heatrdy from "../assets/Heat_RDY.png"
+import nuin from "../assets/Heat_RDY_copy.png"
+import champion from "../assets/Heat_RDY_copy2.png"
 import nikedance from "../assets/Nike_Dance.png"
 
-const allforyouUrl = "https://www.youtube.com/watch?y-83GRQvemCyo"
-const danfoxUrl = "https://www.youtube.com/watch?v-Pi4An155Pvs"
+const allforyouUrl = "https://www.youtube.com/watch?v=83GRQvemCyo&t=7s"
+const danfoxUrl = "https://www.youtube.com/watch?v=Pi4An155Pvs"
 const guidomariaUrl = "https://www.youtube.com/watch?v=InpAW63xues"
-const heatrdyUrl = "https://www.instagram.com/p/CDbagL1KNbX/?utm_source-iq_web_copy_link&igshid-MzRIODBINWVFIZA--"
-const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZA=="
+const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZ=="
+const championUrl = "https://www.youtube.com/watch?v=yIsxfAKoTA8"
+const nuinUrl = "https://www.youtube.com/watch?v=I1eliCfl8GE"
 
 const yearstr = "year:"
 const directedstr = "directed:"
@@ -38,8 +40,8 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <a className="serviceLink" href={nikedanceUrl}>
-                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                <a className="serviceLink" href={championUrl}>
+                  <img className="soundPic" src={champion} alt="Nike_Dance"/>
                 </a>
                 <br></br>
                 <div>{yearstr}</div>
@@ -58,8 +60,8 @@ export class Sound extends React.Component {
                 <div>{brandstr}</div>
               </div>
               <div className="soundPicBox">
-                <a className="serviceLink" href={heatrdyUrl}>
-                  <img className="soundPic" src={heatrdy} alt="Heat_RDY"/>
+                <a className="serviceLink" href={nuinUrl}>
+                  <img className="soundPic" src={nuin} alt="Heat_RDY"/>
                 </a>
                 <br></br>
                 <div>{yearstr}</div>
