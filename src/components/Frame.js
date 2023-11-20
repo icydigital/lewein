@@ -13,7 +13,9 @@ export class Header extends React.Component {
     return (
       <div className="NavBarHeader">
         <div className="LogoHeader">
-          <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
+          <div className="lewineLinkHeader">
+            <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
+          </div>
         </div>
         <div className="LinkHeader">
           <NavLink className="serviceLink" to="/sound">Sound</NavLink>
@@ -29,7 +31,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
+        <iframe className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
           <Header/>
       </div>
     )

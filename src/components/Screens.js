@@ -8,12 +8,12 @@ import nuin from "../assets/Heat_RDY_copy.png"
 import champion from "../assets/Heat_RDY_copy2.png"
 import nikedance from "../assets/Nike_Dance.png"
 
-const allforyouUrl = "https://www.youtube.com/watch?v=83GRQvemCyo&t=7s"
-const danfoxUrl = "https://www.youtube.com/watch?v=Pi4An155Pvs"
-const guidomariaUrl = "https://www.youtube.com/watch?v=InpAW63xues"
+const allforyouUrl = "https://www.youtube.com/embed/83GRQvemCyo&t=7s"
+const danfoxUrl = "https://www.youtube.com/embed/Pi4An155Pvs"
+const guidomariaUrl = "https://www.youtube.com/embed/InpAW63xues"
 const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZ=="
-const championUrl = "https://www.youtube.com/watch?v=yIsxfAKoTA8"
-const nuinUrl = "https://www.youtube.com/watch?v=I1eliCfl8GE"
+const championUrl = "https://www.youtube.com/embed/yIsxfAKoTA8"
+const nuinUrl = "https://www.youtube.com/embed/I1eliCfl8GE"
 
 const yearstr = "year:"
 const directedstr = "directed:"
@@ -28,66 +28,78 @@ export class Sound extends React.Component {
           I offer MUSIC SUPERVISION and tailor-made compositions for commercials, television, and film productions. I am here to assist you with music production and sound consultancy. With my extensive portfolio and expertise, I help you find the perfect musical accompaniment for your commercial projects. Trust in my professional approach, and let us together create an unforgettable soundscape for your content. Contact me now and let's bring your vision to life!
         </div>
         <div className="col2">
-            <div className="soundPicContainer">
+            <div className="soundVideoContainer">
               <div className="soundPicBox">
                 <a className="serviceLink" href={nikedanceUrl}>
-                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+                  <iframe className="videoItem" src={nikedanceUrl}></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={championUrl}>
-                  <img className="soundPic" src={champion} alt="Nike_Dance"/>
+                  <iframe src={championUrl}  frameborder="0" allowfullscreen="true"></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={allforyouUrl}>
-                  <img className="soundPic" src={allforyou} alt="All_for_you"/>
+                  <iframe src={allforyouUrl}  frameborder="0" allowfullscreen="true"></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={nuinUrl}>
-                  <img className="soundPic" src={nuin} alt="Heat_RDY"/>
+                  <iframe src={nuinUrl}  frameborder="0" allowfullscreen="true"></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={guidomariaUrl}>
-                  <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+                  <iframe src={guidomariaUrl}  frameborder="0" allowfullscreen="true"></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={danfoxUrl}>
-                  <img className="soundPic" src={danfox} alt="Dan_FOX"/>
+                  <iframe src={danfoxUrl}  frameborder="0" allowfullscreen="true"></iframe>
                 </a>
                 <br></br>
-                <div>{yearstr}</div>
-                <div>{directedstr}</div>
-                <div>{musicstr}</div>
-                <div>{brandstr}</div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr}</div>
+                   <div>{directedstr}</div>
+                   <div>{musicstr}</div>
+                   <div>{brandstr}</div>
+                 </div>
                 </div>
             </div>
         </div>
