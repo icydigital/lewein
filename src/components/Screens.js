@@ -8,10 +8,10 @@ import nuin from "../assets/Heat_RDY_copy.png"
 import champion from "../assets/Heat_RDY_copy2.png"
 import nikedance from "../assets/Nike_Dance.png"
 
-const allforyouUrl = "https://www.youtube.com/embed/83GRQvemCyo&t=7s"
+const allforyouUrl = "https://www.youtube.com/embed/83GRQvemCyo"
 const danfoxUrl = "https://www.youtube.com/embed/Pi4An155Pvs"
 const guidomariaUrl = "https://www.youtube.com/embed/InpAW63xues"
-const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZ=="
+const nikedanceUrl = "https://www.instagram.com/p/CwhOFpxsXZR/?hl=en"
 const championUrl = "https://www.youtube.com/embed/yIsxfAKoTA8"
 const nuinUrl = "https://www.youtube.com/embed/I1eliCfl8GE"
 
@@ -43,7 +43,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={championUrl}>
-                  <iframe src={championUrl}  frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe src={championUrl} frameborder="0" allowFullScreen="true"></iframe>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -55,7 +55,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={allforyouUrl}>
-                  <iframe src={allforyouUrl}  frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe src={allforyouUrl} frameborder="0" allowFullScreen="true"></iframe>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -67,7 +67,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={nuinUrl}>
-                  <iframe src={nuinUrl}  frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe src={nuinUrl} frameborder="0" allowFullScreen="true"></iframe>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -79,7 +79,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={guidomariaUrl}>
-                  <iframe src={guidomariaUrl}  frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe src={guidomariaUrl} frameborder="0" allowFullScreen="true"></iframe>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -91,7 +91,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={danfoxUrl}>
-                  <iframe src={danfoxUrl}  frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe src={danfoxUrl} frameborder="0" allowFullScreen="true"></iframe>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import headerVideo from "../assets/Chaampion Handy.mp4";
+const headerVideo = "https://www.youtube.com/embed/yIsxfAKoTA8?playlist=yIsxfAKoTA8&loop=1;rel=0&autoplay=1&controls=0&showinfo=0"
 
 export class Header extends React.Component {
   constructor (props) {
