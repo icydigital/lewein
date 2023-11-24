@@ -6,11 +6,9 @@ import {
   Header,
   Footer } from './components/Frame.js'
 import {
-  Home,
   Sound,
-  Music,
-  Art,
-  Hello
+  // Music,
+  // Art
 } from './components/Screens.js'
 
 import {
@@ -28,10 +26,6 @@ function App() {
           </div>
             <Switch>
               <Route path="/sound" component={Sound}>
-              </Route>
-              <Route path="/music" component={Music}>
-              </Route>
-              <Route path="/art" component={Art}>
               </Route>
               <Route exact path="/" component={Sound}>
               </Route>

@@ -15,11 +15,11 @@ export class Header extends React.Component {
         <div className="LogoHeader">
           <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
         </div>
-        <div className="LinkHeader">
+        {/* <div className="LinkHeader">
           <NavLink className="serviceLink" to="/sound">Sound</NavLink>
           <NavLink className="musicLink" to="/music">Music</NavLink>
           <NavLink className="companyLink" to="/art">Art</NavLink>
-        </div>
+        </div> */}
       </div>
     )
   }

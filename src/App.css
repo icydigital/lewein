@@ -9,14 +9,14 @@
 }
 
 .AppHeader {
-
+  display: flex;
 }
 
 .LogoHeader{
   display: flex;
   flex-direction: column;
   text-align: start;
-  width: 80vw;
+  width: 20vw;
   height: 15vh;
   padding-left: 2.5vw;
   padding-top: 1.5vh;
@@ -27,7 +27,7 @@
   flex-direction: column;
   text-align: end;
   justify-content: center;
-  width: 20vw;
+  width: 5vw;
   height: 15vh;
   padding-right: 2.5vw;
   padding-top: 1.5vh;
@@ -44,14 +44,15 @@
   color: #FFFFFF;
 }
 
-.serviceLink,
-.musicLink,
-.companyLink,
-.helloLink {
+/* , */
+/* .musicLink, */
+/* .companyLink, */
+/* .helloLink,  */
+.serviceLink {
   display: flex;
   flex-direction: column;
-  height: inherit;
-  flex-basis: 100%;
+  align-items: center;
+  max-width: 25vw;
   color: #FFFFFF;
 }
 
@@ -118,6 +119,8 @@
   max-width: 100%;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
 }
 
 .soundContainer .col2 {
@@ -146,18 +149,21 @@
   flex: 1;
   min-width: 450px;
   height: auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .soundPic {
-  max-width: 70%;
+  width: 100%;
+  /* max-width: 70%; */
   height: auto;
 }
 /* font-size ------------------------------------- */
 
 .NavBarHeader {
-  font-size: 2vmin;
+  font-size: 2.2vmin;
 }
-.NavBarHeader,
+
 .AppFooter,
 .VideoHeader {
   font-size: 2vmin;
@@ -167,10 +173,15 @@
   font-size: 3.1vmin;
 }
 
+.soundContainer .col1 {
+  font-size: 2.6vmin;
+}
+
+
 .soundContainer .col2,
 .musicContainer .col2,
 .artContainer .col2 {
-  font-size: 2vmin;
+  font-size: 1.8vmin;
 }
 
 .helloContainer .col2 {
