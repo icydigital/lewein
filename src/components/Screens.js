@@ -35,10 +35,10 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
+                   <div>{yearstr} 2023</div>
+                   <div>{directedstr} Yannick Müller</div>
+                   <div>{musicstr} Lewein</div>
+                   <div>{brandstr} Nike</div>
                 </div>
               </div>
               <div className="soundPicBox">
@@ -47,10 +47,9 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
+                   <div>{yearstr} 2021</div>
+                   <div>{musicstr} Lewein</div>
+                   <div>{brandstr} Champion</div>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -59,10 +58,8 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
+                   <div>{yearstr} 2021</div>
+                   <div>{musicstr} Lewein</div>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -71,11 +68,9 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
-                 </div>
+                   <div>{yearstr} 2020</div>
+                   <div>{musicstr} Lewein</div>
+                </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={guidomariaUrl}>
@@ -83,10 +78,9 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
+                <div>{yearstr} 2020</div>
+                   <div>{directedstr} VIVIENNE & TAMAS</div>
+                   <div>{musicstr} Lewein</div>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -95,10 +89,8 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                   <div>{yearstr}</div>
-                   <div>{directedstr}</div>
-                   <div>{musicstr}</div>
-                   <div>{brandstr}</div>
+                   <div>{yearstr} 2020</div>
+                   <div>{musicstr} Lewein</div>
                  </div>
                 </div>
             </div>

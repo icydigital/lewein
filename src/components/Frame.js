@@ -14,7 +14,7 @@ export class Header extends React.Component {
       <div className="NavBarHeader">
         <div className="LogoHeader">
           <div className="lewineLinkHeader">
-            <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
+            <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
           </div>
         </div>
         {/* <div className="LinkHeader">
