@@ -31,7 +31,7 @@ export class Sound extends React.Component {
             <div className="soundVideoContainer">
               <div className="soundPicBox">
                 <a className="serviceLink" href={nikedanceUrl}>
-                  <iframe className="videoItem" src={nikedanceUrl}></iframe>
+                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -39,11 +39,11 @@ export class Sound extends React.Component {
                    <div>{directedstr}</div>
                    <div>{musicstr}</div>
                    <div>{brandstr}</div>
-                 </div>
+                </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={championUrl}>
-                  <iframe src={championUrl} frameborder="0" allowFullScreen="true"></iframe>
+                  <img className="soundPic" src={champion} alt="Nike_Dance"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -55,7 +55,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={allforyouUrl}>
-                  <iframe src={allforyouUrl} frameborder="0" allowFullScreen="true"></iframe>
+                  <img className="soundPic" src={allforyou} alt="All_for_you"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -67,7 +67,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={nuinUrl}>
-                  <iframe src={nuinUrl} frameborder="0" allowFullScreen="true"></iframe>
+                  <img className="soundPic" src={nuin} alt="Heat_RDY"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -79,7 +79,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={guidomariaUrl}>
-                  <iframe src={guidomariaUrl} frameborder="0" allowFullScreen="true"></iframe>
+                  <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
@@ -91,7 +91,7 @@ export class Sound extends React.Component {
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={danfoxUrl}>
-                  <iframe src={danfoxUrl} frameborder="0" allowFullScreen="true"></iframe>
+                  <img className="soundPic" src={danfox} alt="Dan_FOX"/>
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">

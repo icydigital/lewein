@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const headerVideo = "https://www.youtube.com/embed/yIsxfAKoTA8?playlist=yIsxfAKoTA8&loop=1;rel=0&autoplay=1&controls=0&showinfo=0"
+import headerVideo from "../assets/Chaampion Handy.mp4";
 
 export class Header extends React.Component {
   constructor (props) {
@@ -31,8 +31,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <iframe className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
-          <Header/>
+        <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>          <Header/>
       </div>
     )
   }
