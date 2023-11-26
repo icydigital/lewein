@@ -29,10 +29,6 @@ function App() {
             <Switch>
               <Route path="/sound" component={Sound}>
               </Route>
-              <Route path="/music" component={Music}>
-              </Route>
-              <Route path="/art" component={Art}>
-              </Route>
               <Route exact path="/" component={Sound}>
               </Route>
             </Switch>

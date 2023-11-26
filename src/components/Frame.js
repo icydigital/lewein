@@ -13,13 +13,13 @@ export class Header extends React.Component {
     return (
       <div className="NavBarHeader">
         <div className="LogoHeader">
-          <NavLink className="lewineLink" exact to="/">Lewine</NavLink>
+          <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
         </div>
-        <div className="LinkHeader">
+        {/* <div className="LinkHeader">
           <NavLink className="serviceLink" to="/sound">Sound</NavLink>
           <NavLink className="musicLink" to="/music">Music</NavLink>
           <NavLink className="companyLink" to="/art">Art</NavLink>
-        </div>
+        </div> */}
       </div>
     )
   }

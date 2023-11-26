@@ -50,6 +50,7 @@
 .helloLink {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: inherit;
   flex-basis: 100%;
   color: #FFFFFF;
@@ -143,6 +144,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex: 1;
   min-width: 450px;
   height: auto;
@@ -151,6 +153,18 @@
 .soundPic {
   max-width: 70%;
   height: auto;
+}
+
+.VideoDetailsContainer {
+  /* display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  align-items: center;
+  justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
 }
 /* font-size ------------------------------------- */
 
