@@ -67,7 +67,7 @@
 
 .AppFooter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   padding-left: 2.5vw;
@@ -78,6 +78,14 @@
   color: #000000;
   z-index: 0;
   bottom: 0;
+}
+
+.FooterItem {
+  display: flex;
+  max-width: 100%;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  align-items: center; 
 }
 
 .VideoHeader {
@@ -166,7 +174,11 @@
   align-items: flex-start;
   width: 70%;
 }
-/* font-size ------------------------------------- */
+
+.InstagramIconCC {
+  display: flex;
+  width: 4vmin;
+}
 
 .NavBarHeader {
   font-size: 2vmin;

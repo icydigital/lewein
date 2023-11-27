@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import headerVideo from "../assets/Chaampion Handy.mp4";
+import InstagramIcon from "../assets/2227.jpg"
 
 export class Header extends React.Component {
   constructor (props) {
@@ -51,7 +52,9 @@ export class Footer extends React.Component {
   render () {
     return (
       <div className="AppFooter">
-        Social & Newsletter & Impressum & Datenschutz (Link)
+        <div className="FooterItem"><a className="" href="instagram.com">Social <img className="InstagramIconCC" src={InstagramIcon}></img></NavLink></div>
+        <div className="FooterItem">Impressum</div>
+        <div className="FooterItem">Datenschutz</div>
       </div>
     )
   }
