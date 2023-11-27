@@ -4,14 +4,14 @@ import { Link } from "react-router-dom"
 import allforyou from "../assets/All_for_you.png"
 import danfox from "../assets/Dan_FOX.png"
 import guidomaria from "../assets/Guido_Maria.png"
-import nuin from "../assets/Heat_RDY_copy.png"
+import nuin from "../assets/Heat_RDY.png"
 import champion from "../assets/Champion.png"
 import nikedance from "../assets/Nike_Dance.png"
 
 const allforyouUrl = "https://www.youtube.com/watch?v=83GRQvemCyo&t=7s"
 const danfoxUrl = "https://www.youtube.com/watch?v=Pi4An155Pvs"
 const guidomariaUrl = "https://www.youtube.com/watch?v=InpAW63xues"
-const nikedanceUrl = "https://www.instagram.com/reel/CryGEugHs/?utim_source-ig_we-MzRIODBINWFIZ=="
+const nikedanceUrl = "https://www.instagram.com/p/CwhOFpxsXZR/?hl=en"
 const championUrl = "https://www.youtube.com/watch?v=yIsxfAKoTA8"
 const nuinUrl = "https://www.youtube.com/watch?v=I1eliCfl8GE"
 
@@ -35,18 +35,17 @@ export class Sound extends React.Component {
           Contact me now and let's bring your vision to life!
         </div>
         <div className="col2">
-            <div className="soundPicContainer">
+            <div className="soundVideoContainer">
               <div className="soundPicBox">
                 <a className="serviceLink" href={nikedanceUrl}>
                   <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2023</div>
-                  <div>{directedstr} Yannick Müller</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr} Nike</div>
-                  <br></br>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr} 2023</div>
+                   <div>{directedstr} Yannick Müller</div>
+                   <div>{musicstr} Lewein</div>
+                   <div>{brandstr} Nike</div>
                 </div>
               </div>
               <div className="soundPicBox">
@@ -54,38 +53,30 @@ export class Sound extends React.Component {
                   <img className="soundPic" src={champion} alt="Nike_Dance"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2021</div>
-                  <div>{directedstr}</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr} Champion</div>
-                  <br></br>
-                </div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr} 2021</div>
+                   <div>{musicstr} Lewein</div>
+                   <div>{brandstr} Champion</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={allforyouUrl}>
                   <img className="soundPic" src={allforyou} alt="All_for_you"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2021</div>
-                  <div>{directedstr}</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr}</div>
-                  <br></br>
-                </div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr} 2021</div>
+                   <div>{musicstr} Lewein</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={nuinUrl}>
                   <img className="soundPic" src={nuin} alt="Heat_RDY"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2020</div>
-                  <div>{directedstr}</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr}</div>
-                  <br></br>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr} 2020</div>
+                   <div>{musicstr} Lewein</div>
                 </div>
               </div>
               <div className="soundPicBox">
@@ -93,26 +84,21 @@ export class Sound extends React.Component {
                   <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2020</div>
-                  <div>{directedstr} VIVIENNE & TAMAS</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr}</div>
-                  <br></br>
-                </div>
+                <div className="videoDetailsContainer">
+                <div>{yearstr} 2020</div>
+                   <div>{directedstr} VIVIENNE & TAMAS</div>
+                   <div>{musicstr} Lewein</div>
+                 </div>
               </div>
               <div className="soundPicBox">
                 <a className="serviceLink" href={danfoxUrl}>
                   <img className="soundPic" src={danfox} alt="Dan_FOX"/>
                 </a>
                 <br></br>
-                <div className="VideoDetailsContainer">
-                  <div>{yearstr} 2020</div>
-                  <div>{directedstr}</div>
-                  <div>{musicstr} Lewein</div>
-                  <div>{brandstr}</div>
-                  <br></br>
-                </div>
+                <div className="videoDetailsContainer">
+                   <div>{yearstr} 2020</div>
+                   <div>{musicstr} Lewein</div>
+                 </div>
                 </div>
             </div>
         </div>

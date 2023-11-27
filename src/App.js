@@ -6,11 +6,9 @@ import {
   Header,
   Footer } from './components/Frame.js'
 import {
-  Home,
   Sound,
-  Music,
-  Art,
-  Hello
+  // Music,
+  // Art
 } from './components/Screens.js'
 
 import {

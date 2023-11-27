@@ -14,7 +14,9 @@ export class Header extends React.Component {
     return (
       <div className="NavBarHeader">
         <div className="LogoHeader">
-          <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
+          <div className="lewineLinkHeader">
+            <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
+          </div>
         </div>
         {/* <div className="LinkHeader">
           <NavLink className="serviceLink" to="/sound">Sound</NavLink>
@@ -30,8 +32,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div className="VideoHeader">
-        <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
-          <Header/>
+        <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>          <Header/>
       </div>
     )
   }
@@ -52,7 +53,7 @@ export class Footer extends React.Component {
   render () {
     return (
       <div className="AppFooter">
-        <div className="FooterItem"><a className="" href="instagram.com">Social <img className="InstagramIconCC" src={InstagramIcon}></img></NavLink></div>
+        <div className="FooterItem"><a className="" href="instagram.com">Social <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
         <div className="FooterItem">Impressum</div>
         <div className="FooterItem">Datenschutz</div>
       </div>
