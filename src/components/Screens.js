@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
-
+import {
+  VideoHeader,
+  Footer } from './Frame.js'
 import allforyou from "../assets/All_for_you.png"
 import danfox from "../assets/Dan_FOX.png"
 import guidomaria from "../assets/Guido_Maria.png"
@@ -23,6 +25,8 @@ const brandstr = "brand:"
 export class Sound extends React.Component {
   render () {
     return (
+      <div className="AppHeader">
+        <VideoHeader/>
       <div className="soundContainer">
         <div className="col1">
           I offer MUSIC SUPERVISION and tailor-made compositions for commercials, 
@@ -110,6 +114,8 @@ export class Sound extends React.Component {
             </div>
         </div>
       </div>
+    </div>
+
     )
   }
 }

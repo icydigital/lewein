@@ -10,6 +10,7 @@
 
 .AppHeader {
   display: flex;
+  flex-direction: column;
 }
 
 .LogoHeader {
@@ -98,6 +99,10 @@
   padding-left: 2.5vw;
   padding-right: 2.5vw;
   align-items: center; 
+}
+
+.FooterLinkto {
+  text-decoration: none;
 }
 
 .VideoHeader {
@@ -206,6 +211,11 @@
 .InstagramIconCC {
   display: flex;
   width: 4vmin;
+}
+
+.ImprintContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 /* font-size ------------------------------------- */
