@@ -25,7 +25,6 @@ export class Sound extends React.Component {
     return (
       <div className="soundContainer">
         <div className="col1">
-          <br></br>
           I offer MUSIC SUPERVISION and tailor-made compositions for commercials, 
           television, and film productions. I am here to assist you with music 
           production and sound consultancy. With my extensive portfolio and 
@@ -55,6 +54,7 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2021</div>
+                   <div>{directedstr}</div>
                    <div>{musicstr} Lewein</div>
                    <div>{brandstr} Champion</div>
                  </div>
@@ -66,7 +66,9 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2021</div>
+                   <div>{directedstr}</div>
                    <div>{musicstr} Lewein</div>
+                   <div>{brandstr}</div>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -76,7 +78,9 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2020</div>
+                   <div>{directedstr}</div>
                    <div>{musicstr} Lewein</div>
+                   <div>{brandstr}</div>
                 </div>
               </div>
               <div className="soundPicBox">
@@ -88,6 +92,7 @@ export class Sound extends React.Component {
                 <div>{yearstr} 2020</div>
                    <div>{directedstr} VIVIENNE & TAMAS</div>
                    <div>{musicstr} Lewein</div>
+                   <div>{brandstr}</div>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -97,7 +102,9 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2020</div>
+                   <div>{directedstr}</div>
                    <div>{musicstr} Lewein</div>
+                   <div>{brandstr}</div>
                  </div>
                 </div>
             </div>
