@@ -13,7 +13,7 @@ export class Header extends React.Component {
   render () {
     return (
       <div className="NavBarHeader">
-        <div className="LogoHeader">
+        <div className="HomeLogoHeader">
           <div className="lewineLinkHeader">
             <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
           </div>
@@ -49,14 +49,26 @@ export class NavHeader extends React.Component {
   }
 }
 
+export class HomeFooter extends React.Component {
+  render () {
+    return (
+      <div className="AppFooter">
+        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/"> <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
+        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/imprint">Imprint</NavLink></div>
+        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/privacypolicy">Privacy Policy</NavLink></div>
+      </div>
+    )
+  }
+}
+
 export class Footer extends React.Component {
   render () {
     return (
       <div className="AppFooter">
-        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/">Home</NavLink>  </div>
-        <div className="FooterItem"><a className="" href="instagram.com"> <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
+        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/sound">Home</NavLink>  </div>
+        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/"> <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/imprint">Imprint</NavLink></div>
-        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/datasecurity">Data Security</NavLink></div>
+        <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/privacypolicy">Privacy Policy</NavLink></div>
       </div>
     )
   }
@@ -66,31 +78,44 @@ export class Imprint extends React.Component {
   render () {
     return (
       <div className="ImprintContainer">
-        Impressum
-        <br></br>
-        Leon Weinhold
-        <br></br>
-        Isestr. 47 
-        <br></br>
-        20144 Hamburg
-        <br></br>
-        Phone: +49 15170857152
-        <br></br>
-        E-Mail: info@lewein.com
-        <br></br>
+        <div className="OtherLogoHeader">
+          <NavLink className="" exact to="/">Lewein</NavLink>
+        </div>
+        <div className="ImprintText">
+          <div font-weight="bold">Imprint</div>
+          <br></br>
+          Leon Weinhold
+          <br></br>
+          Isestr. 47 
+          <br></br>
+          20144 Hamburg
+          <br></br>
+          Phone: +49 15170857152
+          <br></br>
+          E-Mail: info@lewein.com
+          <br></br>
+        </div>
+        <Footer/>
       </div>
     )
   }
 }
 
-export class DataSecurity extends React.Component {
+export class PrivacyPolicy extends React.Component {
   render () {
     return (
-      <div className="DataSecurityContainer">
-        Der Schutz deiner Daten ist uns wichtig
+      <div className="PrivacyPolicyContainer">
+        <div className="OtherLogoHeader">
+          <NavLink className="" exact to="/">Lewein</NavLink>
+        </div>
+        <div className="PrivacyPolicyText">
+          Privacy Policy
+          <br></br>
+          <br></br>
+          Der Schutz deiner Daten ist uns wichtig. 
+          <br></br>
           Wir verwenden Cookies und ähnliche Technologien, um dir auf unserer Website ein optimales Erlebnis zu ermöglichen. Datenschutzerklärung
-
-          Lewein.com/datenschutz
+          <br></br>
 
           Datenschutzerklärung
           
@@ -202,6 +227,8 @@ export class DataSecurity extends React.Component {
           Bei der Verarbeitung von personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Daten so lange gespeichert, bis der Betroffene sein Widerspruchsrecht nach Art. 21 Abs. 1 DSGVO ausübt, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
           Bei der Verarbeitung von personenbezogenen Daten zum Zwecke der Direktwerbung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Daten so lange gespeichert, bis der Betroffene sein Widerspruchsrecht nach Art. 21 Abs. 2 DSGVO ausübt.
           Sofern sich aus den sonstigen Informationen dieser Erklärung über spezifische Verarbeitungssituationen nichts anderes ergibt, werden gespeicherte personenbezogene Daten im Übrigen dann gelöscht, wenn sie für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig sind.
+        </div>
+         <Footer/>
       </div>
     )
   }

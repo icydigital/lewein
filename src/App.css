@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-.LogoHeader {
+.HomeLogoHeader {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -23,6 +23,19 @@
   height: 15vh;
   padding-left: 2.5vw;
   padding-top: 1.5vh;
+}
+
+.OtherLogoHeader {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  width: 25vw;
+  height: 15vh;
+  padding-left: 2.5vw;
+  padding-top: 1.5vh;
+  font-weight: bold;
 }
 
 .LinkHeader {
@@ -196,18 +209,6 @@
   height: 100%;
 }
 
-.VideoDetailsContainer {
-  /* display: flex;
-  flex-direction: column;
-  max-width: 70%;
-  align-items: center;
-  justify-content: center; */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 70%;
-}
-
 .InstagramIconCC {
   display: flex;
   width: 4vmin;
@@ -218,9 +219,20 @@
   flex-direction: column;
 }
 
+.PrivacyPolicyText,
+.ImprintText {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
+
 /* font-size ------------------------------------- */
 
-.LogoHeader {
+.HomeLogoHeader {
   font-size: 2.4vmin;
 }
 

@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 import {
-  DataSecurity,
-  Footer, 
+  PrivacyPolicy,
+  HomeFooter, 
   Imprint 
 } from './components/Frame.js'
 import { Sound } from './components/Screens.js'
@@ -25,10 +25,9 @@ function App() {
               </Route>
               <Route path="/imprint" component={Imprint}>
               </Route>
-              <Route path="/datasecurity" component={DataSecurity}>
+              <Route path="/privacypolicy" component={PrivacyPolicy}>
               </Route>
             </Switch>
-          <Footer/>
         </div>
       </Router>
     );

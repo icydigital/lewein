@@ -2,7 +2,10 @@ import React from "react"
 import { Link } from "react-router-dom"
 import {
   VideoHeader,
+  Header,
+  HomeFooter, 
   Footer } from './Frame.js'
+
 import allforyou from "../assets/All_for_you.png"
 import danfox from "../assets/Dan_FOX.png"
 import guidomaria from "../assets/Guido_Maria.png"
@@ -58,9 +61,10 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2021</div>
-                   <div>{directedstr}</div>
+                   {/* <div>{directedstr}</div> */}
                    <div>{musicstr} Lewein</div>
                    <div>{brandstr} Champion</div>
+                   <br></br>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -70,9 +74,11 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2021</div>
-                   <div>{directedstr}</div>
+                   {/* <div>{directedstr}</div> */}
                    <div>{musicstr} Lewein</div>
-                   <div>{brandstr}</div>
+                   {/* <div>{brandstr}</div> */}
+                   <br></br>
+                   <br></br>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -82,9 +88,11 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2020</div>
-                   <div>{directedstr}</div>
+                   {/* <div>{directedstr}</div> */}
                    <div>{musicstr} Lewein</div>
-                   <div>{brandstr}</div>
+                   {/* <div>{brandstr}</div> */}
+                   <br></br>
+                   <br></br>
                 </div>
               </div>
               <div className="soundPicBox">
@@ -96,7 +104,8 @@ export class Sound extends React.Component {
                 <div>{yearstr} 2020</div>
                    <div>{directedstr} VIVIENNE & TAMAS</div>
                    <div>{musicstr} Lewein</div>
-                   <div>{brandstr}</div>
+                   {/* <div>{brandstr}</div> */}
+                   <br></br>
                  </div>
               </div>
               <div className="soundPicBox">
@@ -106,16 +115,18 @@ export class Sound extends React.Component {
                 <br></br>
                 <div className="videoDetailsContainer">
                    <div>{yearstr} 2020</div>
-                   <div>{directedstr}</div>
+                   {/* <div>{directedstr}</div> */}
                    <div>{musicstr} Lewein</div>
-                   <div>{brandstr}</div>
-                 </div>
+                   {/* <div>{brandstr}</div> */}
+                   <br></br>
+                   <br></br>
                 </div>
+              </div>
             </div>
         </div>
+        <HomeFooter/>
       </div>
     </div>
-
     )
   }
 }
