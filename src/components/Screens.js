@@ -101,11 +101,11 @@ export class Sound extends React.Component {
                 </a>
                 <br></br>
                 <div className="videoDetailsContainer">
-                <div>{yearstr} 2020</div>
-                   <div>{directedstr} VIVIENNE & TAMAS</div>
-                   <div>{musicstr} Lewein</div>
-                   {/* <div>{brandstr}</div> */}
-                   <br></br>
+                  <div>{yearstr} 2020</div>
+                  <div>{directedstr} VIVIENNE & TAMAS</div>
+                  <div>{musicstr} Lewein</div>
+                  {/* <div>{brandstr}</div> */}
+                  <br></br>
                  </div>
               </div>
               <div className="soundPicBox">
