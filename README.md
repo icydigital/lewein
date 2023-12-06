@@ -4,10 +4,13 @@ lewine portfolio
 
 ## todo 
 
+- refactor code
 - change tab description from "React App to Lewein" 
 - optimize mobile appearance, breakpoints
 - review privacy policy, is bullet point 7) missing?
-- publish pipeline 
+- test, publish pipeline 
+- adds lewein.com/sound as subdomain/path
+- make language detection available
 
 ## build
 
@@ -18,7 +21,7 @@ npm run build
 ### upload
 
 ```
-ncftpput -R -v -u "username" -p "password" w0133587.kasserver.com ./ build/*
+ncftpput-R-v-u "username"-p "password" w0133587.kasserver.com ./ build/*
 ```
 ## Sources
 
