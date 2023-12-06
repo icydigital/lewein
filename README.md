@@ -18,7 +18,7 @@ npm run build
 ### upload
 
 ```
-ncftpput -R -v -u "f0163b17" -p "W7VrFtX83831!" w0133587.kasserver.com ./ build/*
+ncftpput -R -v -u "username" -p "password" w0133587.kasserver.com ./ build/*
 ```
 ## Sources
 
