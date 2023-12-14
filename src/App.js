@@ -3,7 +3,6 @@ import './App.css';
 
 import {
   PrivacyPolicy,
-  HomeFooter, 
   Imprint 
 } from './components/Frame.js'
 import { Sound } from './components/Screens.js'

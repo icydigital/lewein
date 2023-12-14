@@ -43,13 +43,13 @@
   padding-top: 1.5vh;
 }
 
-.lewineLinkHeader {
+.leweinLinkHeader {
   display: flex;
   flex-direction: column;
   width: 10vw;
 }
 
-.lewineLink {
+.leweinLink {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,7 +113,7 @@
   color: #000000;
 }
 
-.lewineVideo {
+.leweinVideo {
   display: flex;
   position: absolute;
   top: 0;

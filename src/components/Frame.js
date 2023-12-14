@@ -14,8 +14,8 @@ export class Header extends React.Component {
     return (
       <div className="NavBarHeader">
         <div className="HomeLogoHeader">
-          <div className="lewineLinkHeader">
-            <NavLink className="lewineLink" exact to="/">Lewein</NavLink>
+          <div className="leweinLinkHeader">
+            <NavLink className="leweinLink" exact to="/">Lewein</NavLink>
           </div>
         </div>
         {/* <div className="LinkHeader">
@@ -32,7 +32,7 @@ export class VideoHeader extends React.Component {
   render () {
     return (
       <div>
-        <video className="lewineVideo" src={headerVideo} type="video/mp4" muted preload="true" autoPlay loop playsInline/>
+        <video className="leweinVideo" src={headerVideo} type="video/mp4" preload="true" autoPlay loop muted playsInline/>
         <Header/>
       </div>
     )
@@ -60,7 +60,7 @@ export class HomeFooter extends React.Component {
   render () {
     return (
       <div className="AppFooter">
-        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/" target="_blank" rel="noreferrer"> <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
+        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/" target="_blank" rel="noreferrer"> <img className="InstagramIconCC" src={InstagramIcon} alt=""></img></a></div>
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/imprint">Imprint</NavLink></div>
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/privacypolicy">Privacy Policy</NavLink></div>
       </div>
@@ -73,7 +73,7 @@ export class Footer extends React.Component {
     return (
       <div className="AppFooter">
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/">Home</NavLink>  </div>
-        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/" target="_blank" rel="noreferrer"> <img className="InstagramIconCC" src={InstagramIcon}></img></a></div>
+        <div className="FooterItem"><a className="" href="https://www.instagram.com/lewein/" target="_blank" rel="noreferrer"> <img className="InstagramIconCC" src={InstagramIcon} alt=""></img></a></div>
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/imprint">Imprint</NavLink></div>
         <div className="FooterItem"><NavLink className="FooterLinkTo" exact to="/privacypolicy">Privacy Policy</NavLink></div>
       </div>
@@ -86,7 +86,7 @@ export class Imprint extends React.Component {
     return (
       <div className="ImprintContainer">
         <div className="OtherLogoHeader">
-          <div className="lewineLinkHeader">
+          <div className="leweinLinkHeader">
           <NavLink className="OtherHeaderLinkTo" exact to="/">Lewein</NavLink>
           </div>
         </div>
@@ -115,7 +115,7 @@ export class PrivacyPolicy extends React.Component {
     return (
       <div className="PrivacyPolicyContainer">
         <div className="OtherLogoHeader">
-          <div className="lewineLinkHeader">
+          <div className="leweinLinkHeader">
             <NavLink className="OtherHeaderLinkTo" exact to="/">Lewein</NavLink>
           </div>        
         </div>
