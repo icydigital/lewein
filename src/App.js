@@ -17,10 +17,9 @@ import {
 function App() {
     return (
       <Router>
-        <div className="AppContainer">
             <Switch>
-              <Route path="/sound" component={Sound}>
-              </Route>
+              {/* <Route path="/sound" component={Sound}>
+              </Route> */}
               <Route exact path="/" component={Sound}>
               </Route>
               <Route path="/imprint" component={Imprint}>
@@ -28,7 +27,6 @@ function App() {
               <Route path="/privacypolicy" component={PrivacyPolicy}>
               </Route>
             </Switch>
-        </div>
       </Router>
     );
 }

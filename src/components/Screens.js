@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import {
   VideoHeader,
-  Header,
-  HomeFooter, 
-  Footer } from './Frame.js'
+  HomeFooter } from './Frame.js'
 
 import allforyou from "../assets/All_for_you.png"
 import danfox from "../assets/Dan_FOX.png"
@@ -21,9 +18,7 @@ const championUrl = "https://www.youtube.com/watch?v=yIsxfAKoTA8"
 const nuinUrl = "https://www.youtube.com/watch?v=I1eliCfl8GE"
 
 const yearstr = "year:"
-const directedstr = "directed:"
 const musicstr = "music:"
-const brandstr = "brand:"
 
 export class Sound extends React.Component {
   render () {
@@ -41,88 +36,70 @@ export class Sound extends React.Component {
           Contact me now and let's bring your vision to life!
         </div>
         <div className="col2">
-            <div className="soundVideoContainer">
-              <div className="soundPicBox">
-                <a className="serviceLink" href={nikedanceUrl}>
-                  <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                   <div>{yearstr} 2023</div>
-                   <div>{directedstr} Yannick Müller</div>
-                   <div>{musicstr} Lewein</div>
-                   <div>{brandstr} Nike</div>
-                </div>
-              </div>
-              <div className="soundPicBox">
-                <a className="serviceLink" href={championUrl}>
-                  <img className="soundPic" src={champion} alt="Nike_Dance"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                   <div>{yearstr} 2021</div>
-                   {/* <div>{directedstr}</div> */}
-                   <div>{musicstr} Lewein</div>
-                   <div>{brandstr} Champion</div>
-                   <br></br>
-                 </div>
-              </div>
-              <div className="soundPicBox">
-                <a className="serviceLink" href={allforyouUrl}>
-                  <img className="soundPic" src={allforyou} alt="All_for_you"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                   <div>{yearstr} 2021</div>
-                   {/* <div>{directedstr}</div> */}
-                   <div>{musicstr} Lewein</div>
-                   {/* <div>{brandstr}</div> */}
-                   <br></br>
-                   <br></br>
-                 </div>
-              </div>
-              <div className="soundPicBox">
-                <a className="serviceLink" href={nuinUrl}>
-                  <img className="soundPic" src={nuin} alt="Heat_RDY"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                   <div>{yearstr} 2020</div>
-                   {/* <div>{directedstr}</div> */}
-                   <div>{musicstr} Lewein</div>
-                   {/* <div>{brandstr}</div> */}
-                   <br></br>
-                   <br></br>
-                </div>
-              </div>
-              <div className="soundPicBox">
-                <a className="serviceLink" href={guidomariaUrl}>
-                  <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                  <div>{yearstr} 2020</div>
-                  <div>{directedstr} VIVIENNE & TAMAS</div>
-                  <div>{musicstr} Lewein</div>
-                  {/* <div>{brandstr}</div> */}
-                  <br></br>
-                 </div>
-              </div>
-              <div className="soundPicBox">
-                <a className="serviceLink" href={danfoxUrl}>
-                  <img className="soundPic" src={danfox} alt="Dan_FOX"/>
-                </a>
-                <br></br>
-                <div className="videoDetailsContainer">
-                   <div>{yearstr} 2020</div>
-                   {/* <div>{directedstr}</div> */}
-                   <div>{musicstr} Lewein</div>
-                   {/* <div>{brandstr}</div> */}
-                   <br></br>
-                   <br></br>
-                </div>
-              </div>
+          <div className="soundProjectListContainer">
+            <div className="soundProject">
+              <a className="soundProjectLink" href={nikedanceUrl} target="_blank" rel="noreferrer">
+                <img className="soundPic" src={nikedance} alt="Nike_Dance"/>
+              </a>
             </div>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2023</div>
+            </div>    
+          </div>
+          <div className="soundProjectListContainerChampion">
+            <div className="soundProject">
+              <a className="soundProjectLink" href={championUrl} target="_blank" rel="noreferrer">
+                <img className="soundPic" src={champion} alt="Nike_Dance"/>
+              </a>
+            </div>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2021</div>
+            </div>            
+          </div>
+          <div className="soundProjectListContainer">
+            <a className="soundProjectLink" href={allforyouUrl} target="_blank" rel="noreferrer">
+              <img className="soundPic" src={allforyou} alt="All_for_you"/>
+            </a>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2021</div>
+            </div>  
+          </div>
+          <div className="soundProjectListContainer">
+            <a className="soundProjectLink" href={nuinUrl} target="_blank" rel="noreferrer">
+              <img className="soundPic" src={nuin} alt="Heat_RDY"/>
+            </a>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2020</div>
+            </div>             
+          </div>
+          <div className="soundProjectListContainer">
+            <a className="soundProjectLink" href={guidomariaUrl} target="_blank" rel="noreferrer">
+              <img className="soundPic" src={guidomaria} alt="Guido_Maria"/>
+            </a>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2020</div>
+            </div>              
+          </div>
+          <div className="soundProjectListContainer">
+            <a className="soundProjectLinkLast" href={danfoxUrl} target="_blank" rel="noreferrer">
+              <img className="soundPicLast" src={danfox} alt="Dan_FOX"/>
+            </a>
+            <div className="soundProjectDescription">
+              <br></br>
+              <div>{musicstr} Lewein</div>
+              <div>{yearstr} 2020</div>
+            </div>            
+          </div>      
         </div>
         <HomeFooter/>
       </div>
@@ -131,32 +108,32 @@ export class Sound extends React.Component {
   }
 }
 
-export class Music extends React.Component {
-  render () {
-    return (
-      <div className="musicContainer">
-        <div className="col1">
-          About Music
-        </div>
-        <div className="col2">
-          Projects Music
-        </div>
-      </div>
-    )
-  }
-}
+// export class Music extends React.Component {
+//   render () {
+//     return (
+//       <div className="musicContainer">
+//         <div className="col1">
+//           About Music
+//         </div>
+//         <div className="col2">
+//           Projects Music
+//         </div>
+//       </div>
+//     )
+//   }
+// }
 
-export class Art extends React.Component {
-  render () {
-    return (
-      <div className="artContainer">
-        <div className="col1">
-          About Art
-        </div>
-        <div className="col1">
-          <div></div>
-        </div>
-      </div>
-    )
-  }
-}
+// export class Art extends React.Component {
+//   render () {
+//     return (
+//       <div className="artContainer">
+//         <div className="col1">
+//           About Art
+//         </div>
+//         <div className="col1">
+//           <div></div>
+//         </div>
+//       </div>
+//     )
+//   }
+// }
