@@ -23,7 +23,7 @@ const musicstr = "music:"
 export class Sound extends React.Component {
   render () {
     return (
-      <div className="AppHeader">
+      <div className="AppContainer">
         <VideoHeader/>
       <div className="soundContainer">
         <div className="col1">
