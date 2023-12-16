@@ -204,6 +204,7 @@
 }
 
 @media screen and (max-width: 450px) {
+  .soundContainer .col1 { padding: 0.8vh 0.8vw; margin: 0; }
   .soundContainer .col2 { padding: 0; width: 100vw; }  
 }
 
