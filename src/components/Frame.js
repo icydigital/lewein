@@ -28,10 +28,10 @@ export class Header extends React.Component {
   }
 }
 
-export class VideoHeader extends React.Component {
+export class AppHeader extends React.Component {
   render () {
     return (
-      <div>
+      <div className="AppHeader">
         <video className="leweinVideo" src={headerVideo} type="video/mp4" preload="true" autoPlay loop muted playsInline/>
         <Header/>
       </div>
@@ -98,8 +98,6 @@ export class Imprint extends React.Component {
           Isestr. 47 
           <br></br>
           20144 Hamburg
-          <br></br>
-          Phone: +49 15170857152
           <br></br>
           E-Mail: info@lewein.com
           <br></br>

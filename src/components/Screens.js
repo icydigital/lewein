@@ -1,6 +1,6 @@
 import React from "react"
 import {
-  VideoHeader,
+  AppHeader,
   HomeFooter } from './Frame.js'
 
 import allforyou from "../assets/All_for_you.png"
@@ -24,7 +24,7 @@ export class Sound extends React.Component {
   render () {
     return (
       <div className="AppContainer">
-        <VideoHeader/>
+        <AppHeader/>
       <div className="soundContainer">
         <div className="col1">
           I offer MUSIC SUPERVISION and tailor-made compositions for commercials, 
@@ -92,7 +92,7 @@ export class Sound extends React.Component {
           </div>
           <div className="soundProjectListContainer">
             <a className="soundProjectLinkLast" href={danfoxUrl} target="_blank" rel="noreferrer">
-              <img className="soundPicLast" src={danfox} alt="Dan_FOX"/>
+              <img className="soundPic" src={danfox} alt="Dan_FOX"/>
             </a>
             <div className="soundProjectDescription">
               <br></br>
