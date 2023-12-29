@@ -140,8 +140,8 @@
   max-width: 100%;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .soundContainer .col2 {
@@ -153,6 +153,8 @@
   flex-wrap: wrap;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;  
   -ms-flex-direction: column;
   -ms-flex-wrap: wrap;
   -webkit-flex-flow: row wrap;
