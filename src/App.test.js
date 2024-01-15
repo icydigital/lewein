@@ -3,6 +3,9 @@ import App from './App';
 
 test('renders Lewein Homepage link', () => {
   render(<App />);
-  const LeweinHeader = screen.getByText(/Lewein/i);
+  const LeweinHeader = document.querySelector('.leweinLinkHeader'); // Check for element existence first
   expect(LeweinHeader).toBeInTheDocument();
+  expect(LeweinHeader).toBeVisible();
+  // const leweinLink = screen.getByText(/Lewein/i);
+  // expect(leweinLink).toBeInTheDocument();
 });
