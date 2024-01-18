@@ -183,6 +183,17 @@
   width: 450px;
 }
 
+.soundProjectListContainerNuin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -ms-flex: auto;
+  -webkit-box-flex: auto;
+  flex: auto; 
+  margin: .5vw; 
+  width: 450px;
+}
+
 .soundProjectDescription {
   display: flex;
   flex-direction: column;
@@ -197,10 +208,18 @@
   background-color: #000000;
 }
 
+.soundProjectNuin {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  /* background-color: #f0f0f0;   */
+}
+
 .soundPic {
   display: flex;
   width: 100%; 
-  height: auto; 
+  height: 100%; 
 }
 
 @media screen and (max-width: 450px) {
