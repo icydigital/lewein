@@ -6,6 +6,11 @@ test('renders Lewein Homepage link', () => {
   const LeweinHeader = document.querySelector('.leweinLinkHeader'); // Check for element existence first
   expect(LeweinHeader).toBeInTheDocument();
   expect(LeweinHeader).toBeVisible();
-  // const leweinLink = screen.getByText(/Lewein/i);
-  // expect(leweinLink).toBeInTheDocument();
+});
+
+test('renders Lewein Video Header', () => {
+  render(<App />);
+  const LeweinVideo = document.querySelector('.leweinVideo'); // Check for element existence first
+  expect(LeweinVideo).toBeInTheDocument();
+  expect(LeweinVideo).toBeVisible();
 });

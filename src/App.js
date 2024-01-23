@@ -17,8 +17,6 @@ function App() {
     return (
       <Router>
             <Switch>
-              {/* <Route path="/sound" component={Sound}>
-              </Route> */}
               <Route exact path="/" component={Sound}>
               </Route>
               <Route path="/imprint" component={Imprint}>

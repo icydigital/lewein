@@ -3,7 +3,7 @@ name: publish-test
 on:
   push:
     tags:
-      - 'v*'
+      - 'test-v*'
 
 jobs:
   publish:
