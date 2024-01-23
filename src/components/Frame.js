@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import headerVideo from "../assets/Chaampion_Handy.mp4";
 import InstagramIcon from "../assets/2227.png";
-import introGif from "../assets/Gif_Banner_Handy.gif";
+// import introGif from "../assets/Gif_Banner_Handy.gif";
 
 export class Header extends React.Component {
   constructor (props) {
