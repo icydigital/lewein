@@ -34,4 +34,4 @@ jobs:
       run: sudo apt-get install ncftp
 
     - name: Upload build folder to production environment (domain lewein.com)
-      run: ncftpput -R-v-u ${{ secrets.FTP_USER_NAME }} -p ${{ secrets.FTP_PW }} ${{ secrets.FTP_SERVER_ADDRESS }} ./ build/* 
+      run: ncftpput -R -v -u ${{ secrets.FTP_USER_NAME }} -p ${{ secrets.FTP_PW }} ${{ secrets.FTP_SERVER_ADDRESS }} ./ build/* 
