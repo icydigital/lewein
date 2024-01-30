@@ -1,4 +1,4 @@
-name: publish-test
+name: publish-to-test
 
 on:
   push:
@@ -6,11 +6,10 @@ on:
       - 'test-v*'
 
 jobs:
-  publish:
+  publish-to-test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [ubuntu-latest]
         node-version: [20.x]
 
     steps:

@@ -1,4 +1,4 @@
-name: publish-production
+name: publish-to-production
 
 on:
   push:
