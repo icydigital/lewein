@@ -10,7 +10,7 @@ test('renders Lewein Homepage link', () => {
 
 test('renders Lewein Video Header', () => {
   render(<App />);
-  const LeweinVideo = document.querySelector('.leweinVideo'); // Check for element existence first
-  expect(LeweinVideo).toBeInTheDocument();
-  expect(LeweinVideo).toBeVisible();
+  const LeweinGif = document.querySelector('.leweinChampionGif'); // Check for element existence first
+  expect(LeweinGif).toBeInTheDocument();
+  expect(LeweinGif).toBeVisible();
 });
