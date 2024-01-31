@@ -1,6 +1,8 @@
 # lewein
 
-lewein portfolio
+lewein portfolio   
+
+www.lewein.com 
 
 <!-- ## todo
 
@@ -17,7 +19,7 @@ npm run build
 #### upload
 
 ```
-ncftpput -R-v-u "username"-p "password" w0133587.kasserver.com ./ build/*
+ncftpput -R -v -u "username"-p "password" w0133587.kasserver.com ./ build/*
 ```
 ### Sources
 
