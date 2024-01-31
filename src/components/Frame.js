@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import { NavLink } from "react-router-dom";
-import headerVideo from "../assets/Chaampion_Handy.mp4";
+// import headerVideo from "../assets/Chaampion_Handy.mp4";
 import InstagramIcon from "../assets/2227.png";
-// import introGif from "../assets/Gif_Banner_Handy.gif";
+import introGif from "../assets/Gif_Banner_Handy.gif";
 
 export class Header extends React.Component {
   constructor (props) {
@@ -33,7 +33,7 @@ export class AppHeader extends React.Component {
   render () {
     return (
       <div className="AppHeader">
-        <video className="leweinVideo" src={headerVideo} type="video/mp4" preload="auto" autoPlay loop muted playsInline/>
+        <img src={introGif} class="leweinChampionGif" alt="My GIF"/>
         <Header/>
       </div>
     )
