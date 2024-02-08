@@ -33,7 +33,7 @@ export class AppHeader extends React.Component {
   render () {
     return (
       <div className="AppHeader">
-        <img src={introGif} class="leweinChampionGif" alt="My GIF"/>
+        <img src={introGif} className="leweinChampionGif" alt="My GIF"/>
         <Header/>
       </div>
     )
