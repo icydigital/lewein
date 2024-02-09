@@ -1,4 +1,4 @@
-[![ci](https://github.com/Balou9/lewein/workflows/ci/badge.svg)](https://github.com/Balou9/lewein/actions/workflows/ci.yml)[![publish-to-production](https://github.com/Balou9/lewein/workflows/publish-to-production/badge.svg)](https://github.com/Balou9/lewein/actions/workflows/publish-to-production.yml)[![publish-to-test](https://github.com/Balou9/lewein/workflows/publish-to-test/badge.svg)](https://github.com/Balou9/lewein/actions/workflows/publish-to-test.yml)
+[![ci](https://github.com/icydigital/lewein/workflows/ci/badge.svg)](https://github.com/icydigital/lewein/actions/workflows/ci.yml)[![publish-to-production](https://github.com/icydigital/lewein/workflows/publish-to-production/badge.svg)](https://github.com/icydigital/lewein/actions/workflows/publish-to-production.yml)[![publish-to-test](https://github.com/icydigital/lewein/workflows/publish-to-test/badge.svg)](https://github.com/icydigital/lewein/actions/workflows/publish-to-test.yml)
 
 # lewein
 
