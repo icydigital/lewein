@@ -4,6 +4,8 @@ on:
   push:
     paths-ignore:
       - README.md
+      - .github/workflows/publish-to-production.yml
+      - .github/workflows/publish-to-test.yml
 
 jobs:
   test:

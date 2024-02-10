@@ -33,5 +33,5 @@ jobs:
     - name: Installs ncftp
       run: sudo apt-get install ncftp
 
-    - name: Upload build folder to test environment (domain lewein.de)
-      run: ncftpput -R -v -u ${{ secrets.FTP_USER_NAME_TEST }} -p ${{ secrets.FTP_PW_TEST }} ${{ secrets.FTP_SERVER_ADDRESS }} ./ build/* 
+    - name: Upload build folder to test environment
+      run: ncftpput -R -v -u ${{ secrets.FTP_USER_NAME_TEST }} -p ${{ secrets.FTP_PW_TEST }} ${{ secrets.FTP_SERVER_ADDRESS }} ./ build/*
